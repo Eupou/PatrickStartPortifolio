@@ -25,3 +25,48 @@ a {
 .title {
   font-size: 22px;
 }
+
+.heroWrapper {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 1px 1px rgba(223, 221, 221, 0.603);
+}
+
+.hero {
+  margin-left: 10px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.profile {
+  max-width: 300px;
+}
+
+.imgContainer img {
+  margin-left: 5px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  word-break: break-all;
+  font-size: 60px;
+}
+
+.extraInfo {
+  font-size: 20px;
+}
+
+.email {
+  margin-top: 20px;
+}
+
+.brief {
+  max-width: 95%;
+  margin-top: 20px;
+  text-indent: 50px;
+  text-align: justify;
+}
